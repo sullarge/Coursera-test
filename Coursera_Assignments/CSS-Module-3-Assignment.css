@@ -1,0 +1,57 @@
+<style>
+	* {
+		box-sizing: border-box;
+	}
+	body {
+	
+	}
+	.Our-menu {
+		border: 3px solid black;
+		height: 1000px;
+		background-color: lightgray;
+		padding: 20px;
+		overflow: hidden;
+
+
+	}
+	.container-fluid {
+		margin-top: 20px;
+		padding: 20px;
+	}
+	section {
+		text-align: center;
+		padding: 10px;
+		font-size: 1.3em;
+		font-weight: bold;
+		color: blue;
+	}
+	.navbar-brand {
+		font-weight: bold;
+		font-size: 1.4em;
+		position: relative;
+		left: 30px;
+
+	}
+	.text-center {
+		color: blue;
+		text-shadow: 2px 2px black;
+		margin-top: 10px;
+		margin-bottom: -20px;
+	}
+	.navbar {
+		background-color: lightblue;
+	} 
+	.navbar-toggler:hover, button:active {
+		border: 2px solid white;
+		background-color: blue;
+		}
+
+	.collapse {
+			position: absolute;
+			right:  30px;
+			font-weight: bold;
+	}
+# 
+@media (max-width:  767px) {}
+
+</style>
