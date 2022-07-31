@@ -1,0 +1,81 @@
+* {
+		box-sizing: border-box;
+	}
+
+	body {
+		font-family: cursive;
+	}
+
+	.navbar-brand {
+		font-weight: bold;
+		position: relative;
+		left: 30px;
+	}
+
+	nav {
+		background-color: lightblue;
+	} 
+
+.navbar-toggler:hover, button:active {
+		border: 4px solid white;
+		background-color: blue;
+		}
+
+
+@media (max-width: 991px) {
+	.collapse {
+			position: relative;
+			left: 30px;
+			font-weight: bold;
+			text-align: center;
+	}
+	li:hover {
+		background-color: yellow;
+	}
+}
+
+	@media (min-width:  992px) {
+			.collapse {
+			position: absolute;
+			right:  30px;
+			font-weight: bold;
+			}
+			li:hover {
+		background-color: yellow;
+	}
+		}
+
+	.text-center {
+		color: blue;
+		text-shadow: 2px 2px black;
+		margin-top: 10px;
+		margin-bottom: -20px;
+	}
+	
+	
+
+		.container-fluid {
+		margin-top: 20px;
+		padding: 20px;
+	}
+
+	.Our-menu {
+		border: 3px solid black;
+		height: 1000px;
+		background-color: lightgray;
+		padding: 20px;
+		overflow: hidden;
+		margin:  0px 5% 0px 5%;
+
+
+	}
+	
+	section {
+		text-align: center;
+		padding: 10px;
+		font-size: 1.3em;
+		font-weight: bold;
+		color: blue;
+	}
+	
+	
