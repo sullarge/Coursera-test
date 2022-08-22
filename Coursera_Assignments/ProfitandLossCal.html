@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ProofitLossCal</title>
+</head>
+<link rel="stylesheet" type="text/css" href="ProfitandLossCal.css">
+<body>
+		<div class="navbar">
+			<header>Trading Profit/Loss Calculator</header>
+		</div>
+			<div class="tablercontainer">
+					<table border="1" cellpadding="3">
+						<caption>The PNL</caption>
+						<thead>
+							<tr class="firstRow"> 
+								<td>Margin</td>
+								<td>Entry</td>
+								<td>Target</td>
+								<td>% PNL</td>
+								<td>PNL</td>
+								<td>New Margin</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="capital error"></td>
+								<td class="mainEntry error"></td>
+								<td class="mainTarget error"></td>
+								<td class="pecentpnl error"></td>
+								<td class="pnl error"></td>
+								<td class="newCapital error"></td>
+							</tr>
+						</tbody>
+					</table>
+
+					<h2></h2>
+					<h3>Profit/Loss</h3>
+					<div class="formborder">
+						<form id= "forming">
+							<input type="text" name="Margin" placeholder="Your Margin" class="margin" value="" required>
+							<br>
+							<input type="text" name="Entry" placeholder="Your Entry" class="entry" value="" required>
+							<br>
+							<input type="text" name="Target" placeholder="Your Target" class="target" value="" required>
+							<br>
+							<center>
+								<input type="button" class="Calculate" name="Calculate" value="Calculate" onclick="check(form), formmming()">
+							</center>
+						</form>
+					</div>
+				<!-- <h5><em>~devSullarge~</em></h5> -->
+
+				<div class="footer">
+					<h4>Contacts..</h4>
+					<div class="spans">
+						<a href="https://wwww.facebook.com/profile.php?id=100006920370374" target="_balnk"><img src="facebook.png" /></a>
+						<a href="mailto:lawalsullarge@gmail.com"target="_balnk"><img src="mial.png" /></a>
+						<a href="https://wa.me/+2349065145093" target="_balnk"><img src="whatapp.png"/></a>
+					</div>
+					<hr>
+					<h5><em>~devSullarge~</em></h5>
+				</div>
+			</div>
+<script type="text/javascript" src="ProfitandLossCal.js"></script>
+</body>
+</html>
