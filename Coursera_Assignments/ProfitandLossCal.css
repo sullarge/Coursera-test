@@ -1,5 +1,5 @@
 	body {
-		font-family: cursive;
+		font-family: sans-serif;
 		background: url("images/pnl2.jpg") center fixed no-repeat;
 	}
 	.navbar {
@@ -40,6 +40,8 @@
 img:hover{
 	background-color: yellow;
 }
+h3, h5 {
+4font-family: cursive;}
 h4 {
 	margin: 10px 0px 0px 0px;
 	color: black;
