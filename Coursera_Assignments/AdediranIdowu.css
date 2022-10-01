@@ -1,0 +1,175 @@
+/*HEADER STYLE*/
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: lightblue;
+	margin: 0px;
+}
+header {
+	background-color: #02075d;
+	padding:5px;
+	margin: 0px auto;
+	font-family: sans-serif;
+}
+ul {
+	text-align: center;
+}
+ ul li:nth-child(2),ul li:nth-child(3),ul li:nth-child(4) {
+ 	margin-left: 8%
+ }
+nav li  {
+	list-style: none;
+	display: inline;
+	font-size: 1.3rem;
+
+}
+li a {
+	text-decoration: none;
+	color: white;
+}
+li a:hover {
+	padding: 5px;
+	color:  white;
+	border-radius: 10px;
+	background-color: lightblue;
+}
+
+/*END OF HEADER STYLE*/
+
+/*BIGINING OF LOGIN STYLE*/
+h2 {
+	text-align: center;
+	color: #02075d;
+	text-shadow: 1px 1px 1px white;
+	margin-top: 30px;
+}
+.loginformContainer {
+	max-width:430px;
+	background-color: white;
+	padding: 20px 30px 30px 30px;
+	text-align: center;
+	margin: 5% auto;
+	box-shadow: 2px 2px 5px black;
+}
+.loginformContainer input {
+	margin-bottom: 15px;
+	width: 100%;
+	border-right: 0px;
+	border-left: 0px;
+	border-top: 0px;
+	border-bottom: 1.3px solid blue;
+	padding:  5px;
+}
+
+h3, h4 {
+	color: #02075d;
+	font-family: sans-serif;
+}
+button {
+	padding: 7px;
+	font-weight: bold;
+	background-color: #02075d;
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+	width: 40%;
+	border: 0px;
+}
+button:hover {
+	background-color: lightblue;
+	color: blue;
+}
+
+.pageFooter {
+	text-align: center;
+}
+
+/*END OFF LOGIN PAGE STYLE*/
+
+/* start of Registration Page Styling*/
+label, select {
+	
+	float: left;
+	padding-left: 3.5px;
+}
+select {
+	margin-bottom: 5px;
+}
+.regisBody {
+	background-color: lightblue;
+}
+
+/*Start of HomepAge Styling*/
+.homepageBody{
+	background-color: lightgray;
+}
+hr {
+	outline: 2px solid white ;
+}
+img {
+	border-radius: 	100%;
+	box-shadow: 3px 2px 5px black;
+}
+button	a {
+	color: 	white;
+	text-decoration: 	none;
+	font-weight: 	bold;
+	display: block;
+}
+button	a:hover	{
+	color: 	blue;
+}
+.profileImage {
+	margin-top: 20px;
+	padding: 25px;
+	color: blue;
+	float: left;
+	text-align: center;
+}
+.imagetext {
+	padding: 16px;
+	max-width:  400px;
+	margin: 15px auto;
+	color: #02075d;
+	font-size: 1rem;
+	font-family: monospace;
+	background-color:  white;
+	text-align: left;
+	border-radius: 20px;
+	box-shadow: 2px 5px 5px 2px #02075d;
+	font-weight: bold;
+}
+
+.AboutMe, .AboutMe > h2 {
+	margin-top: 0px;
+}
+.AboutMe {
+	margin-left: 30px;
+	padding-left: 30px;
+}
+/* START OF CONTACT ME PAGE STYLE*/
+.formContainerContactPage button:hover {
+	color: gold;
+	background-color: black;
+}
+.formContainerContactPage {
+	max-width: 500px;
+	background-color: lightgray;
+	margin: 20px auto;
+	padding: 15px;
+	border: 2px solid lavender;
+	;
+}
+form {
+	margin: 10px;
+	background-color: whitesmoke;
+	padding: 20px;
+}
+.formContainerContactPage input, textarea {
+	width: 100%;
+	border-top: 0px;
+	border-left: 0px;
+	border-bottom: 1.4px solid #02075d;
+	border-right: 0px;
+}
