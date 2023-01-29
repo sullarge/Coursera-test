@@ -4,7 +4,7 @@ body {
 	background-position: 	center;
 	margin: 0px;
 	width: 100vw;
-        height: 100vw;
+        background-color: darkblue;
 	font-family: cursive;
 	background-size: cover;
 }
