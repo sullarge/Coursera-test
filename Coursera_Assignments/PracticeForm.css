@@ -4,8 +4,7 @@ body {
 	background-position: 	center;
 	margin: 0px;
 	width: 100vw;
-        height: 100%;
-        background-color: darkblue;
+        background-color: #AAE3E2;
 	font-family: 'Neuton', 'Crimson', 'TextSlabo', 'Merriweather', san-serif;
 	background-size: cover;
 }
