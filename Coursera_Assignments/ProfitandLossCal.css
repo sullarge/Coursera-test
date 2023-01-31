@@ -1,6 +1,7 @@
 	body {
 		font-family: cursive;
-		background: url("images/pnl2.jpg") center fixed no-repeat;
+		background: url("images/pnl2.jpg") center fixed cover no-repeat;
+		
 	}
 	.navbar {
 		font-weight: bolder;
