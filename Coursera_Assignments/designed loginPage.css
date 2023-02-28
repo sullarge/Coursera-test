@@ -1,0 +1,159 @@
+body {
+	background-image: url(images/image3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 0px;
+	box-sizing: bo;
+	margin: 0px;
+	font-family: 'Crimson', 'Neuton', auto;
+}
+header {
+	background-color: black;
+	margin-left: 0px;
+}
+header a {
+	color: black;
+
+	padding: 3%;
+}
+ul.navList {
+	text-align: center;
+	padding: 2%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.navList li {
+	list-style: none;
+	display: inline;
+
+	background-color: whitesmoke;
+	
+	border-radius: 4px;
+
+	font-weight: bold;
+	font-family: cursive;
+	text-align: center;
+	margin: 5% 2% 2% 2%;
+}
+
+.contentContentPage {
+	background-color: white;
+	border-radius: 20px;
+	padding: 5%;
+	margin: 2.5% auto 5% auto;
+	height: 400px;
+	max-width: 60%;
+	box-shadow: 6px 6px 25px black;
+}
+.Logo{
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	box-shadow: 2px 2px black;
+}
+
+.LogoName img, h5 {
+	float: left;
+}
+form {
+	width: 43%;
+	padding-left: 4%;
+}
+h5 {
+	padding-left: 2%;
+}
+form .Welcome {
+	clear: both;
+	padding-top: 4.5%;
+}
+form .Welcome h2 {
+	margin-bottom: 0px;
+}
+form .Welcome p {
+	margin-top: 0px;
+	margin-bottom: 3%;
+}
+input {
+	padding: 10px 5px;
+	width: 100%;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px solid black;
+
+}
+button	 {
+	text-align: center;
+	padding: 10px;
+	background-color: black;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+	width: 100%;
+}
+span { 
+color: white;
+width: 30px;
+heigt: 30px;
+border-radius: 100%;
+backgroound-color: black;
+}
+.secondColum {
+	margin-top: 0px;
+	margin-left: 3%;
+	font-family: ;
+	background-color: black;
+	width: 43%;
+	color: white;
+	padding: 3%;
+	border-radius: 15px;
+}
+.secondColum img {
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+}
+.secondColum, form {
+ float: left;
+}
+.secondColum h3 {
+	text-align: center;
+	padding-top: 17%;
+}
+a {
+	text-decoration: none;
+}
+button:hover {
+	background-color: azure;
+	color: black;
+}
+@media (max-width: 878px) {
+	.secondColum, form {
+		width: 	100%;
+	}
+	.contentContentPage {
+		padding-right: 12%;
+		height: 45em;
+	}
+}
+@media (width: 375px) {
+	.contentContentPage {
+		height: 47em;
+	}
+}
+@media (width: 768px){
+	.contentContentPage {
+		height: 53em;
+	}	
+}
+@media (min-width: 521px) and (max-width: 878px){
+	.contentContentPage {
+		height: 56em;
+	}
+}
+@media (width: 360px) {
+	.contentContentPage {
+		height: 47em;
+	}
+}
