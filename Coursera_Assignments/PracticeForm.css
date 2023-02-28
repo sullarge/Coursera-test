@@ -77,3 +77,23 @@ label, h2 {
  	background-color: black;
  	color: white;
  }
+@media (width: 375px) {
+	.contentContentPage {
+		height: 47em;
+	}
+}
+@media (width: 768px){
+	.contentContentPage {
+		height: 53em;
+	}	
+}
+@media (min-width: 521px) and (max-width: 878px){
+	.contentContentPage {
+		height: 56em;
+	}
+}
+@media (width: 360px) {
+	.contentContentPage {
+		height: 47em;
+	}
+}
