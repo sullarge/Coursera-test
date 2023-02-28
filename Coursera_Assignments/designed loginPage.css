@@ -1,5 +1,5 @@
 body {
-	background-image: url(images/image3.jpg);
+	background-image: url(image3.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -8,34 +8,8 @@ body {
 	margin: 0px;
 	font-family: 'Crimson', 'Neuton', auto;
 }
-header {
-	background-color: black;
-	margin-left: 0px;
-}
-header a {
-	color: black;
 
-	padding: 3%;
-}
-ul.navList {
-	text-align: center;
-	padding: 2%;
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
-.navList li {
-	list-style: none;
-	display: inline;
 
-	background-color: whitesmoke;
-	
-	border-radius: 4px;
-
-	font-weight: bold;
-	font-family: cursive;
-	text-align: center;
-	margin: 5% 2% 2% 2%;
-}
 
 .contentContentPage {
 	background-color: white;
