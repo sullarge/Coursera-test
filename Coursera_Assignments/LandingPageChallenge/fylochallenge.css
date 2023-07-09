@@ -59,7 +59,7 @@ body {
  .section1 {
  	font-display: flex;
  	flex-direction: column;
- 	width: 70%;
+ 	width: 80%;
  	margin: 0  auto;
  	text-align: center;
  } 
@@ -102,7 +102,7 @@ h1 {
 /*SECTION 2*/
 
 .section2 {
-	width: 70%;
+	width: 80%;
 	margin: 10px  auto;
 	padding: 10px;
 	position: relative;
@@ -132,7 +132,7 @@ h1 {
 .section3 {
 	clear: left;
 	display: flex;
-	width: 70%;
+	width: 80%;
 	align-items: center;
 	justify-content: space-between;
 	margin: 0px auto;
@@ -171,7 +171,7 @@ hr {
 
 /*SECTION 4*/
 .section4 {
-	width: 70%;
+	width: 80%;
 	padding-top: 2.5%;
 	padding-left:1%;
 	margin: 10px auto 0px auto;
